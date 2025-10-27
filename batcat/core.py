@@ -8,6 +8,9 @@ license:    Apache License 2.0
 """
 import pandas as pd
 
+def add_numbers(a, b):
+    return a + b
+
 def get_date_with_delta(delta, format='%Y/%m/%d'):
     """ Get the date delta days ago.
 
@@ -51,4 +54,5 @@ def read_data_from_bd(query,
     return df
 
 if __name__ == '__main__':
-    main()
+    # No main function defined, so nothing to run here
+    pass
